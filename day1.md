@@ -99,7 +99,8 @@ A sophisticated model can use more than one features.
 
 ```
 y' = b + w1x1 + w2x2 + w3x3 + .... + wNxN
-```here, x1,x2,x3 are the different different features which predict for the label.
+here, x1,x2,x3 are the different different features which predict for the label.
+```
 1. **Training** a model simply means learning (determining) good values for all the weights and the bias from labeled examples. 
 
 2. In supervised learning, a machine learning algorithm builds a model by examining many examples and attempting to find a model that minimizes loss; this process is called **empirical risk minimization**.
