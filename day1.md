@@ -26,13 +26,13 @@ Almost like, watching a child grow right infront of you. :)
   <img src="https://github.com/GopikrishnanSasikumar/Intro-to-Machine-Learning-Workshop/blob/master/images-2.png"alt="supervised learning"/>
 </p>
 
-- Unsupervised Learning
+- Unsupervised Learning(I kind of like to imagine it as a human named tarzan who lives in jungle seeing two different animals!)
 
 <p>
   <img src="https://github.com/GopikrishnanSasikumar/Intro-to-Machine-Learning-Workshop/blob/master/unsupervised_learning.png" height="200" width="400" alt="Un-Supervised Learning"/>
 </p>
 
-- Reinforcement Learning
+- Reinforcement Learning(action,state and rewards)
 
 <p>
   <img src="https://github.com/GopikrishnanSasikumar/Intro-to-Machine-Learning-Workshop/blob/master/1*HvoLc50Dpq1ESKuejhICHg.png" alt="Reinforcement Learning"/>
@@ -42,13 +42,14 @@ In supervised learning we create “models”, a model is basically a function t
 
 ### Features:
 
-A feature is an input variable—the x variable in simple linear regression. A simple machine learning project might use a single feature, while a more sophisticated machine learning project could use millions of features.
+A feature is an input variable—the x variable .
+. A simple machine learning project might use a single feature, while a more sophisticated machine learning project could use millions of features.The learning is done by understanding the features.
 
-Features of house price predicting ML model can be,
+Features of sem exam scores for predicting ML model can be,
 
-- Total number of rooms.
-- Age of house
-- Locality of the house
+- Total number of hours spent studying the day before exam.
+- previous knowledge from +2 topics.(Brilliant pala students please step back!!)
+- Love for PUBG :wink:
 
 ### Labels:
 
