@@ -11,16 +11,13 @@
 2. Reducing Loss
 3. Training and Testing sets
 4. Logistic Regression
-5. First Steps with Tensorflow
+5. First Steps with Tensorflow library-keras
 6. Tasks
 
 ## Intro to machine learning
-
-Machine learning is the art of making sense of data !
-
-1. It does things normal code can't do and it helps to reduce the time you spend for coding.   
-
-2. In machine learning we don't need to tell the algorithm what to do, we only need to show it some examples.
+Do you wonder how life works? How humans make and adapt and learn? We cannot learn anything unless we have a data as input,which are gained mostly through our sense organs.
+Well, do give machines some data, give them the power of wisdom, and ,let them learn things their own way!
+Almost like, watching a child grow right infront of you. :)
 
 ### Types of machine learning algorithms:
 - Supervised Learning
