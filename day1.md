@@ -1,4 +1,4 @@
-# Welcome to Tensorflow Study Jam : Day 1
+# Welcome!
 <p align="center">
   <img src="https://github.com/GopikrishnanSasikumar/Intro-to-Machine-Learning-Workshop/blob/master/IMG-20180812-WA0001.jpg" height="500" width="500"alt="Keralaai tf study jam"/>
 </p>
