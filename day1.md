@@ -61,13 +61,13 @@ A regression model is used to predict continuous values.
 
 For example,
 
-- The probability of Captain America Dying in Avengers 4.
-- Price of houses in california.
+- The probability of winning the chicken dinner after several retries.(PUBG fans can relate!)
+- Price of petrol in India.
 
 A classification model predicts discrete values. It can make predictions that answer questions like,
 
-- Is this an image of a cat or dog or Wade wilson.
-- Pedicting whether a movie belongs to DC or Marvel(based on the dark screen may be) 
+- Is this an image of a cat or dog or Priya prakash warrier.
+- Predicting whether a movie belongs to DC or Marvel(based on the dark screen may be). 
 
 ### Linear Regression
 
@@ -76,7 +76,7 @@ Linear regression is a method for finding the straight line or hyperplane that b
 The line equation is,
 
 ```
-y = mx + b
+y = mx + b 
 
 ```
 
@@ -88,7 +88,7 @@ y' = b + w1x1
 Where,
 
 - y' is the label we are predicting.
-- b is the bias.
+- b is the bias.(does the same thing what a constant c does to the line equation.Determines if to pass through origin or not)
 - w1 is the weight of feature 1. Weight is the same concept as the "slope" 
  in the traditional equation of a line.
 - x1 is a feature (a known input).
@@ -99,7 +99,7 @@ A sophisticated model can use more than one features.
 
 ```
 y' = b + w1x1 + w2x2 + w3x3 + .... + wNxN
-```
+```here, x1,x2,x3 are the different different features which predict for the label.
 1. **Training** a model simply means learning (determining) good values for all the weights and the bias from labeled examples. 
 
 2. In supervised learning, a machine learning algorithm builds a model by examining many examples and attempting to find a model that minimizes loss; this process is called **empirical risk minimization**.
@@ -124,7 +124,7 @@ First we have to find the loss.
 </p>
 
 ## Reducing Loss
-Reducing the loss is similar to the **"Hot and cold game"** kids play!
+Reducing the loss is similar to the **"Hot and cold game"** kids play!(Hot if youre nearer,cold if youre not.)
 
 A Machine Learning model is trained by starting with an initial guess for the weights and bias and iteratively adjusting those guesses until learning the weights and bias with the lowest possible loss.
 
