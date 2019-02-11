@@ -8,6 +8,9 @@ The brain is what it is because of the structural and functional properties of i
 <img src="http://www.brainfacts.org/-/media/Brainfacts2/Brain-Anatomy-and-Function/Anatomy/Article-Images/Neuron-Illustration.jpg?la=en&hash=1D4882EC74F982F033F232C296ADF8E5EB1D9F64" label=image />
 <h2>Supervised and unsupervised learning</h2>
 <h2>Overfitting</h2>
+<h4>Overfitting is when the trained model memorizes the undesirable patterns or noise from the training data-set. This is due to too much training or learning capacity(too many hidden layers or neurons in each layer). The consequence of overfitting is that, model cannot generalize to samples outside its training set, which overall reduces the performance of the model. To determine whether the model is overfitting, during the training, compare the loss value on the training and testing set. If the loss on the test set is much larger than in the training set, then the model is overfitting, specially if the training loss is low. However, it is also normal that the test loss is slightly larger than training loss.
+
+</h4>
 <h2>Bias-Variance Tradeoff</h2>
 <h2>Perceptron</h2>
 <h2>Activation Function</h2>
