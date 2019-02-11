@@ -11,7 +11,7 @@
 2. Reducing Loss
 3. Training and Testing sets
 4. Logistic Regression
-5. First Steps with Tensorflow library-keras
+5. First Steps with some frameworks
 6. Tasks
 
 ## Intro to machine learning
