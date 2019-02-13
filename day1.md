@@ -142,9 +142,10 @@ Gradient Descent is a general function for minimizing a function, in this case t
 To explain it very briefly, it is a way to determine how well the machine learning model has performed given the different values of each parameters.
 Gradient descent is an optimization algorithm used to minimize some function by iteratively moving in the direction of steepest descent as defined by the negative of the gradient. In machine learning, we use gradient descent to update the parameters of our model. Parameters refer to coefficients in Linear Regression and weights in neural networks.
 In the above figure, we must reach the steepest point,i.e, the bottom most point here,which is the local minimum. We have to converge to that value, and then we can say, with minimum loss, we can predict the output.
-
+<img src="https://www.google.com/url?sa=i&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwjD5Nqkt7ngAhWadn0KHcyUA6QQjRx6BAgBEAU&url=https%3A%2F%2Fmedium.freecodecamp.org%2Funderstanding-gradient-descent-the-most-popular-ml-algorithm-a66c0d97307f&psig=AOvVaw2bntcIfAzlG_ErJuiK3B65&ust=1550172099563907" label=image5 />
 
 <img src="https://cdn-images-1.medium.com/max/1200/1*8wpL_9SdB1rRuN8ll-u5hA.png" label=image4 />
+
 ### Learning Rate
 
 <p align="center">
