@@ -142,7 +142,7 @@ Gradient Descent is a general function for minimizing a function, in this case t
 To explain it very briefly, it is a way to determine how well the machine learning model has performed given the different values of each parameters.
 Gradient descent is an optimization algorithm used to minimize some function by iteratively moving in the direction of steepest descent as defined by the negative of the gradient. In machine learning, we use gradient descent to update the parameters of our model. Parameters refer to coefficients in Linear Regression and weights in neural networks.
 In the above figure, we must reach the steepest point,i.e, the bottom most point here,which is the local minimum. We have to converge to that value, and then we can say, with minimum loss, we can predict the output.
-<img src="https://www.google.com/url?sa=i&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwjD5Nqkt7ngAhWadn0KHcyUA6QQjRx6BAgBEAU&url=https%3A%2F%2Fmedium.freecodecamp.org%2Funderstanding-gradient-descent-the-most-popular-ml-algorithm-a66c0d97307f&psig=AOvVaw2bntcIfAzlG_ErJuiK3B65&ust=1550172099563907" label=image5 />
+
 
 <img src="https://cdn-images-1.medium.com/max/1200/1*8wpL_9SdB1rRuN8ll-u5hA.png" label=image4 />
 
@@ -152,6 +152,8 @@ In the above figure, we must reach the steepest point,i.e, the bottom most point
   <img src="https://cdn-images-1.medium.com/max/1600/0*QwE8M4MupSdqA3M4.png" height="300" width="500" alt="Gradient Descent"/>
 </p>
 We take steps in gradient descent to converge to the local minimum. But learning rate also shouldnt be to high or too low, which result in values other than local minimum.
+
+
 
 ## Training and Testing Sets
 <br>
@@ -243,10 +245,15 @@ Tensorflow consist of,
 | tf.layers/tf.losses/tf.metrics  | Libraries for common model components.|
 | TensorFlow	                    | Lower-level APIs                      |
 
+
+
+<h2>Why don't you try with keras framework with me?</h2>
+
+
 ## Tasks
+1)https://machinelearningmastery.com/tutorial-first-neural-network-python-keras/
+If you want to directly jump on to see how an ML code works,see this link which was my first program too!
+2)Hey! what if you changed the dataset, i.e,change the training and test set values and parameters so that you can use it in your own application? May the best idea win!
 
-1. Make changes and try different hyper-parameters, learning rate and number of iterations in train_model() function to get a model with better accuracy.
-
-2. Write another function ```test_model()``` in [regression.py](https://github.com/GopikrishnanSasikumar/deeplearning-resources/blob/master/workshops/TensorFlow%20Study%20Jam/regression.py) for testing the model with a new input.
 
 
