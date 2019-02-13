@@ -15,7 +15,7 @@ The brain is what it is because of the structural and functional properties of i
 <img src="https://cdn-images-1.medium.com/max/1200/1*cdvfzvpkJkUudDEryFtCnA.png" label=image2 />
 <h2>Regularisation</h2>
 <img src="https://cdn-images-1.medium.com/max/800/1*zYfwoRcih4jzyDP3j3aVmQ.png" label=image3 />
-
+<h4> What is the need for regularisation? </h4>
 
 
 
