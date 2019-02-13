@@ -181,6 +181,7 @@ coconut falling on head =
 
 
 3. a sigmoid function, defined as follows, produces output that always falls between 0 and 1.
+So,the aim of logistic regression is to get a probabilistic value between 0 and 1, and you can see that in the graph 
 
 <p align="center">
   <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSw89aMI5qlmImjji48z1agmJOhIJDSJvZgrHD9WPR4q783tMEMkw" height="100" width="150" alt="sigmoid function"/>
@@ -206,6 +207,16 @@ and p is the predicted output.
 <p align="center">
   <img src="https://github.com/GopikrishnanSasikumar/Intro-to-Machine-Learning-Workshop/blob/master/logloss.png" alt="sigmoid graph"/>
 </p>
+
+
+<h2>Comparison to linear regression</h2>
+Given data on time spent studying and exam scores. Linear Regression and logistic regression can predict different things:
+
+Linear Regression could help us predict the student’s test score on a scale of 0 - 100. Linear regression predictions are continuous (numbers in a range).
+Logistic Regression could help use predict whether the student passed or failed. Logistic regression predictions are discrete (only specific values or categories are allowed). We can also view probability scores underlying the model’s classifications.
+<h2>Decision Boundary</h2>
+
+
 
 ## First Steps with Tensorflow
 
