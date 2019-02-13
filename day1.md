@@ -121,6 +121,7 @@ First we have to find the loss.
 = (observation - prediction(x))2
 = (y - y')2
 ```
+We need a function that will minimize the parameters over our dataset. One common function that is often used is mean squared error, which measure the difference between the estimator (the dataset) and the estimated value (the prediction). 
 **Mean square error (MSE)** is the average squared loss per example over the whole dataset.
 
 <p align="center">
@@ -133,6 +134,7 @@ Reducing the loss is similar to the **"Hot and cold game"** kids play!(Hot if yo
 A Machine Learning model is trained by starting with an initial guess for the weights and bias and iteratively adjusting those guesses until learning the weights and bias with the lowest possible loss.
 
 ### Gradient Descent
+Gradient Descent is a general function for minimizing a function, in this case the Mean Squared Error cost function.
 
 <p align="center">
   <img src="https://cdn-images-1.medium.com/max/1600/0*rBQI7uBhBKE8KT-X.png" height="300" width="500" alt="Gradient Descent"/>
@@ -140,6 +142,7 @@ A Machine Learning model is trained by starting with an initial guess for the we
 To explain it very briefly, it is a way to determine how well the machine learning model has performed given the different values of each parameters.
 Gradient descent is an optimization algorithm used to minimize some function by iteratively moving in the direction of steepest descent as defined by the negative of the gradient. In machine learning, we use gradient descent to update the parameters of our model. Parameters refer to coefficients in Linear Regression and weights in neural networks.
 In the above figure, we must reach the steepest point,i.e, the bottom most point here,which is the local minimum. We have to converge to that value, and then we can say, with minimum loss, we can predict the output.
+<img src="https://cdn-images-1.medium.com/max/1200/1*8wpL_9SdB1rRuN8ll-u5hA.png" label=image4 />
 ### Learning Rate
 
 <p align="center">
