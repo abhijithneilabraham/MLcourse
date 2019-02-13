@@ -6,6 +6,7 @@
 The brain is what it is because of the structural and functional properties of interconnected neurons. The mammalian brain contains between 100 million and 100 billion neurons, depending on the species.
 </h4>
 <img src="http://www.brainfacts.org/-/media/Brainfacts2/Brain-Anatomy-and-Function/Anatomy/Article-Images/Neuron-Illustration.jpg?la=en&hash=1D4882EC74F982F033F232C296ADF8E5EB1D9F64" label=image />
+<img src="http://www.quickmeme.com/img/4f/4f6426cff43d5fded163b8c294d007b022eda8a18344b21fe7be3b8c69afbc25.jpg" label=image3 </img>
 <h2>Supervised and unsupervised learning</h2>
 <h2>Neural Networks and perceptrons</h2>
 <h2>Overfitting</h2>
