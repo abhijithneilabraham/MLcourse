@@ -112,6 +112,7 @@ here, x1,x2,x3 are the different different features which predict for the label.
 4. The goal of training a model is to find a set of weights and biases that have low loss, on average, across all examples.
 
 First we have to find the loss.
+<h2>Cost Function</h2>
 
 **L2 Loss/square loss** is a popular loss function. It is the given as
 
