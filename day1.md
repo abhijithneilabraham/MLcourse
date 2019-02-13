@@ -159,7 +159,7 @@ We take steps in gradient descent to converge to the local minimum. But learning
 
 
 <p align="center">
-  <img src="https://am207.github.io/2017/wiki/images/train-test.png" height="360" width="740" alt="train-test divison"/>
+  <img src="https://cdn-images-1.medium.com/max/1600/1*-8_kogvwmL1H6ooN1A1tsQ.png" height="360" width="740" alt="train-test divison"/>
 </p>
 
 - **training set** — a subset to train a model.
