@@ -144,8 +144,10 @@ Gradient descent is an optimization algorithm used to minimize some function by 
 In the above figure, we must reach the steepest point,i.e, the bottom most point here,which is the local minimum. We have to converge to that value, and then we can say, with minimum loss, we can predict the output.
 
 
-<img src="https://cdn-images-1.medium.com/max/1200/1*8wpL_9SdB1rRuN8ll-u5hA.png" label=image4 />
 
+<p align="center">
+<img src="https://cdn-images-1.medium.com/max/1200/1*8wpL_9SdB1rRuN8ll-u5hA.png" label=image4 />
+</p>
 ### Learning Rate
 
 <p align="center">
@@ -252,7 +254,9 @@ Tensorflow consist of,
 
 ## Tasks
 1)https://machinelearningmastery.com/tutorial-first-neural-network-python-keras/
+
 If you want to directly jump on to see how an ML code works,see this link which was my first program too!
+
 2)Hey! what if you changed the dataset, i.e,change the training and test set values and parameters so that you can use it in your own application? May the best idea win!
 
 
