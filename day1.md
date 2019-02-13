@@ -27,7 +27,9 @@ Almost like, watching a child grow right infront of you. :)
 </p>
 
 - Unsupervised Learning(I kind of like to imagine it as a human named tarzan who lives in jungle seeing two different animals!)
-
+<h3>
+  As you can see,
+  the most common method for unsupervised learning is clustering.
 <p>
   <img src="https://github.com/GopikrishnanSasikumar/Intro-to-Machine-Learning-Workshop/blob/master/unsupervised_learning.png" height="200" width="400" alt="Un-Supervised Learning"/>
 </p>
