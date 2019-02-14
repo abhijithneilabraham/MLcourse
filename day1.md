@@ -260,10 +260,13 @@ Tensorflow consist of,
 </br>Open source, commercially usable - BSD license
 
 </br> Let's now check a code and visualize and train a small custom dataset to understand how linear regression works.
-## Tasks
+</br>https://github.com/abhijithneilabraham/Scikit-matplotlib-pandas/blob/master/linear_model.py
+
+
+<p>## Tasks
 </br>1)https://scikit-learn.org/stable/tutorial/basic/tutorial.html . try this and other example tasks with scikit learn with built-in datasets.
 
 </br>2)Hey! what if you changed the dataset, i.e,change the training and test set values and parameters so that you can use it in your own application? May the best idea win!
-
+</p>
 
 
