@@ -137,7 +137,7 @@ y' = b + w1x1 + w2x2 + w3x3 + .... + wNxN
 here, x1,x2,x3 are the different different features which predict for the label.
 ```
 <h4> Lets look at a sample XY plot.</h4>
-<img src="https://www.google.com/url?sa=i&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwjb3J7QgLzgAhUHf30KHU8jBawQjRx6BAgBEAU&url=https%3A%2F%2Fnowenlightenme.com%2F2018%2F09%2F05%2Fmachine-learning-linear-regression-part-1-from-scratch-and-with-scikit-learn-implementation%2F&psig=AOvVaw3znW8bXMmeCS1NpG_lFfgO&ust=1550260496373532" label=image6 />
+<img src="https://nowenlightenme.files.wordpress.com/2018/09/regression-best-fit-on-new_x-and-new_y.png?w=640" label=image9 />
 
 
 1. **Training** a model simply means learning (determining) good values for all the weights and the bias from labeled examples. 
