@@ -78,6 +78,8 @@ A label is the thing we're predicting. It can be the price of a product, class p
 ```
 </br>Use labeled examples to train our Model
 
+
+
 ### Regression Vs Classification
 </br>Supervised learning problems can be further grouped into regression and classification problems.
 
@@ -95,6 +97,12 @@ A classification model predicts discrete values. It can make predictions that an
 
 - Is this an image of a cat or dog or Priya prakash warrier.
 - Predicting whether a movie belongs to DC or Marvel(based on the dark scree(and humour) may be). 
+
+
+
+<h2>Okay guys,time to check your understanding!</h2>
+<h4>Click on the link below</h4>
+https://developers.google.com/machine-learning/crash-course/framing/check-your-understanding
 
 ### Linear Regression
 
