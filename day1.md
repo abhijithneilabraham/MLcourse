@@ -25,6 +25,12 @@ Almost like, watching a child grow right infront of you. :)
 <p>
   <img src="https://github.com/GopikrishnanSasikumar/Intro-to-Machine-Learning-Workshop/blob/master/images-2.png"alt="supervised learning"/>
 </p>
+Applications:
+</br> Information extraction
+</br>Object recognition in image processing
+</br>Pattern recognition
+</br>Speech recognition
+
 
 - Unsupervised Learning(I kind of like to imagine it as a human named tarzan who lives in jungle seeing two different animals!)
 <h3>
@@ -33,12 +39,15 @@ Almost like, watching a child grow right infront of you. :)
 <p>
   <img src="https://github.com/GopikrishnanSasikumar/Intro-to-Machine-Learning-Workshop/blob/master/unsupervised_learning.png" height="200" width="400" alt="Un-Supervised Learning"/>
 </p>
+ </br>The goal for unsupervised learning is to model the underlying structure or distribution in the data in order to learn more about the data.
 
 - Reinforcement Learning(action,state and rewards)
 
 <p>
   <img src="https://github.com/GopikrishnanSasikumar/Intro-to-Machine-Learning-Workshop/blob/master/1*HvoLc50Dpq1ESKuejhICHg.png" alt="Reinforcement Learning"/>
 </p>
+</br>Continuos learning process,with self improvement,based on rewards.
+
 
 In supervised learning we create “models”, a model is basically a function that takes in simple inputs and produces useful predictions. Here we have features and labels in the dataset.
 
@@ -58,6 +67,10 @@ Features of sem exam scores for predicting ML model can be,
 A label is the thing we're predicting. It can be the price of a product, class probability in a classification.
 
 ### Regression Vs Classification
+</br>Supervised learning problems can be further grouped into regression and classification problems.
+
+<h3>Classification:</h3> </br> A classification problem is when the output variable is a category, such as “red” or “blue” or “disease” and “no disease”.
+<h3>Regression:</h3> </br> A regression problem is when the output variable is a real value, such as “dollars” or “weight”.
 
 A regression model is used to predict continuous values.
 
