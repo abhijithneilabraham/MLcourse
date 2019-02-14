@@ -73,9 +73,9 @@ A label is the thing we're predicting. It can be the price of a product, class p
 </br>labeled examples
 </br>unlabeled examples
 </br>A labeled example includes both feature(s) and the label. That is:
-'''
+```
  labeled examples: {features, label}: (x, y)
-'''
+```
 </br>Use labeled examples to train our Model
 
 ### Regression Vs Classification
