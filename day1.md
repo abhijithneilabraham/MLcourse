@@ -177,7 +177,8 @@ Gradient descent is an optimization algorithm used to minimize some function by 
 In the above figure, we must reach the steepest point,i.e, the bottom most point here,which is the local minimum. We have to converge to that value, and then we can say, with minimum loss, we can predict the output.
 
 
-
+</br>
+</br>
 <p align="center">
 <img src="https://cdn-images-1.medium.com/max/1200/1*8wpL_9SdB1rRuN8ll-u5hA.png" label=image4 />
 </p>
