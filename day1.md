@@ -47,6 +47,7 @@ Applications:
   <img src="https://github.com/GopikrishnanSasikumar/Intro-to-Machine-Learning-Workshop/blob/master/1*HvoLc50Dpq1ESKuejhICHg.png" alt="Reinforcement Learning"/>
 </p>
 </br>Continuos learning process,with self improvement,based on rewards.
+</br> Application Example:Self Driving car.
 
 
 In supervised learning we create “models”, a model is basically a function that takes in simple inputs and produces useful predictions. Here we have features and labels in the dataset.
