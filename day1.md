@@ -67,6 +67,17 @@ Features of sem exam scores for predicting ML model can be,
 
 A label is the thing we're predicting. It can be the price of a product, class probability in a classification.
 
+### Examples:
+  An example is a particular instance of data, x. (We put x in boldface to indicate that it is a vector.) We break examples into two categories:
+
+</br>labeled examples
+</br>unlabeled examples
+</br>A labeled example includes both feature(s) and the label. That is:
+'''
+ labeled examples: {features, label}: (x, y)
+'''
+</br>Use labeled examples to train our Model
+
 ### Regression Vs Classification
 </br>Supervised learning problems can be further grouped into regression and classification problems.
 
