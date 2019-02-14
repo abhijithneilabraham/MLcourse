@@ -70,8 +70,8 @@ A label is the thing we're predicting. It can be the price of a product, class p
 ### Examples:
   An example is a particular instance of data, x. (We put x in boldface to indicate that it is a vector.) We break examples into two categories:
 
-</br>labeled examples
-</br>unlabeled examples
+</br>	&#8226;labeled examples
+</br>	&#8226;unlabeled examples
 </br>A labeled example includes both feature(s) and the label. That is:
 ```
  labeled examples: {features, label}: (x, y)
