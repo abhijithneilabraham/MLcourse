@@ -247,17 +247,23 @@ Tensorflow consist of,
 | tf.layers/tf.losses/tf.metrics  | Libraries for common model components.|
 | TensorFlow	                    | Lower-level APIs                      |
 
+<h3>There will always be awesome deep learning frameworks for your use,like, keras,pytorch,tensorflow,etc,but
+  I think we should start with something very light and understandable with the theory we have studied until now.</h2>
 
 
-<h2>Why don't you try with keras framework with me?</h2>
 
+<h2>Why don't you try with scikit learn framework with me?</h2>
+<h1> Scikit learn</h1>
+</br>Simple and efficient tools for data mining and data analysis
+</br>Accessible to everybody, and reusable in various contexts
+</br>Built on NumPy, SciPy, and matplotlib
+</br>Open source, commercially usable - BSD license
 
+</br> Let's now check a code and visualize and train a small custom dataset to understand how linear regression works.
 ## Tasks
-1)https://machinelearningmastery.com/tutorial-first-neural-network-python-keras/
+</br>1)https://scikit-learn.org/stable/tutorial/basic/tutorial.html . try this and other example tasks with scikit learn with built-in datasets.
 
-If you want to directly jump on to see how an ML code works,see this link which was my first program too!
-
-2)Hey! what if you changed the dataset, i.e,change the training and test set values and parameters so that you can use it in your own application? May the best idea win!
+</br>2)Hey! what if you changed the dataset, i.e,change the training and test set values and parameters so that you can use it in your own application? May the best idea win!
 
 
 
