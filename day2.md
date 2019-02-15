@@ -1,4 +1,6 @@
 <html>
+  <h2>okay,now ,before starting todays class,let's revise Supervised and unsupervised learning!(from day1.md)</h2>
+  </br>
 <h1>Topics</h1>
 <h2>Neurons In brain</h2>
   <h4>Cells within the nervous system, called neurons, communicate with each other in unique ways. The neuron is the basic working unit of the brain, a specialized cell designed to transmit information to other nerve cells, muscle, or gland cells.
