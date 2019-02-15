@@ -7,9 +7,20 @@ The brain is what it is because of the structural and functional properties of i
 </h4>
 <img src="http://www.brainfacts.org/-/media/Brainfacts2/Brain-Anatomy-and-Function/Anatomy/Article-Images/Neuron-Illustration.jpg?la=en&hash=1D4882EC74F982F033F232C296ADF8E5EB1D9F64" label=image />
 <img src="http://www.quickmeme.com/img/4f/4f6426cff43d5fded163b8c294d007b022eda8a18344b21fe7be3b8c69afbc25.jpg" label=image3 </img>
-<h2>okay,now let's revise Supervised and unsupervised learning!</h2>
-</br>
+<h2>okay,now let's revise Supervised and unsupervised learning!(from day1.md)</h2>
 
+<img src="https://cdn-images-1.medium.com/max/1200/1*eJfR3ui_2SsPAyMYF5R00A.jpeg" align=center label=image6 />
+ 
+ 
+ </br> Theres a difference between machine learning and deep learning
+ </br>Machine learning is a lot of complex math and coding that, at the end of day, serves a mechanical function the same way a flashlight, a car, or a television does. When something is capable of “machine learning”, it means it’s performing a function with the data given to it, and gets progressively better at that function. It’s like if you had a flashlight that turned on whenever you said “it’s dark”, so it would recognize different phrases containing the word “dark”.
+
+<p>Deep learning
+In practical terms, deep learning is just a subset of machine learning.
+  Let’s go back to the flashlight example: it could be programmed to turn on when it recognizes the audible cue of someone saying the word “dark”. Eventually, it could pick up any phrase containing that word. Now if the flashlight had a deep learning model, it could maybe figure out that it should turn on with the cues “I can’t see” or “the light switch won’t work”. A deep learning model is able to learn through its own method of computing – its own “brain”, if you will. </p>
+ <h4> So,any clue as to why I explained about a neuron earlier?</h4>
+ 
+ 
 <h2>Neural Networks and perceptrons</h2>
 <h4>Perceptron is a single layer neural network and a multi-layer perceptron is called Neural Networks.</h4>
 Perceptron is a linear classifier (binary). Also, it is used in supervised learning
