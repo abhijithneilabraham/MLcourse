@@ -45,6 +45,9 @@ The perceptron works on these simple steps
 
 
 <img src="https://cdn-images-1.medium.com/max/1200/1*cdvfzvpkJkUudDEryFtCnA.png" label=image2 />
+<h2>Qualities of good features</h2>
+</br><h3>let's read about feature engineering</h3>
+</br>https://developers.google.com/machine-learning/crash-course/representation/feature-engineering
 <h2>Regularisation</h2>
 <img src="https://cdn-images-1.medium.com/max/800/1*zYfwoRcih4jzyDP3j3aVmQ.png" label=image3 />
 <h4> What is the need for regularisation? </h4>
