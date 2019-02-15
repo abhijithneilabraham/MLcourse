@@ -9,7 +9,9 @@ The brain is what it is because of the structural and functional properties of i
 </h4>
 <img src="http://www.brainfacts.org/-/media/Brainfacts2/Brain-Anatomy-and-Function/Anatomy/Article-Images/Neuron-Illustration.jpg?la=en&hash=1D4882EC74F982F033F232C296ADF8E5EB1D9F64" label=image />
 <img src="http://www.quickmeme.com/img/4f/4f6426cff43d5fded163b8c294d007b022eda8a18344b21fe7be3b8c69afbc25.jpg" label=image3 </img>
-<h2>okay,now let's revise Supervised and unsupervised learning!(from day1.md)</h2>
+
+<h2>Wait, are we doing machine learning or deep learning?</h2>
+
 
 <img src="https://cdn-images-1.medium.com/max/1200/1*eJfR3ui_2SsPAyMYF5R00A.jpeg" align=center label=image6 />
  
