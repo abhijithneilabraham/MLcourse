@@ -7,13 +7,20 @@
     
 The brain is what it is because of the structural and functional properties of interconnected neurons. The mammalian brain contains between 100 million and 100 billion neurons, depending on the species.
 </h4>
+<p align="center" >
+  
 <img src="http://www.brainfacts.org/-/media/Brainfacts2/Brain-Anatomy-and-Function/Anatomy/Article-Images/Neuron-Illustration.jpg?la=en&hash=1D4882EC74F982F033F232C296ADF8E5EB1D9F64" label=image />
+</p>
+<p align="center"
 <img src="http://www.quickmeme.com/img/4f/4f6426cff43d5fded163b8c294d007b022eda8a18344b21fe7be3b8c69afbc25.jpg" label=image3 </img>
+</p>
 
 <h2>Wait, are we doing machine learning or deep learning?</h2>
+<p align="center">
+  
 
-
-<img src="https://cdn-images-1.medium.com/max/1200/1*eJfR3ui_2SsPAyMYF5R00A.jpeg" align=center label=image6 />
+<img src="https://cdn-images-1.medium.com/max/1200/1*eJfR3ui_2SsPAyMYF5R00A.jpeg"  label=image6 />
+</p>
  
  
  </br> Theres a difference between machine learning and deep learning
