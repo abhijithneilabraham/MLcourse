@@ -8,11 +8,13 @@
 
 
 1. Intro to machine learning
-2. Reducing Loss
-3. Training and Testing sets
-4. Logistic Regression
-5. First Steps with some frameworks
-6. Tasks
+2. Regression Vs Classification
+3. Linear Regression
+4. Reducing Loss
+5. Training and Testing sets
+6. Logistic Regression
+7. First Steps with some frameworks
+8. Tasks
 
 ## Intro to machine learning
 Do you wonder how life works? How humans make and adapt and learn? We cannot learn anything unless we have a data as input,which are gained mostly through our sense organs.
