@@ -46,6 +46,8 @@ Applications:
 
 - Reinforcement Learning(action,state and rewards)
 
+remind me to make you play a game of 2 cars!
+
 <p>
   <img src="https://github.com/GopikrishnanSasikumar/Intro-to-Machine-Learning-Workshop/blob/master/1*HvoLc50Dpq1ESKuejhICHg.png" alt="Reinforcement Learning"/>
 </p>
