@@ -20,6 +20,7 @@
 Do you wonder how life works? How humans make and adapt and learn? We cannot learn anything unless we have a data as input,which are gained mostly through our sense organs.
 Well, do give machines some data, give them the power of wisdom, and ,let them learn things their own way!
 Almost like, watching a child grow right infront of you. :)
+https://thispersondoesnotexist.com
 
 ### Types of machine learning algorithms:
 - Supervised Learning
