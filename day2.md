@@ -82,12 +82,18 @@ https://developers.google.com/machine-learning/crash-course/introduction-to-neur
 2)Sigmoid or Logistic
 3)Tanh — Hyperbolic tangent
 
-<h2>Forward Propogation</h2>
+<h2>Forward and Backward Propogation</h2>
 <p align="center" >
 <img src="https://www.bogotobogo.com/python/scikit-learn/images/NeuralNetwork2-Forward-Propagation/NN-with-components-w11-etc.png" label=lalala />
 </p>
+
+In neural networks, you forward propagate to get the output and compare it with the real value to get the error.
+
+Now, to minimize the error, you propagate backwards by finding the derivative of error with respect to each weight and then subtracting this value from the weight value.
+
+The basic learning that has to be done in neural networks is training neurons when to get activated. Each neuron should activate only for particular type of inputs and not all inputs. Therefore, by propagating forward you see how well your neural network is behaving and find the error. After you find out that your network has error, you back propagate and use a form of gradient descent to update new values of weights. Then, you will again forward propagate to see how well those weights are performing and then will backward propagate to update the weights. This will go on until you reach some minima for error value.
 <h2>Training</h2>
-<h2>Backward propogation(Backprop)</h2>
-<h2>Loss Functions</h2>
-<h2>Gradient decscent,learning rate</h2>
+
+
+
 </html>
