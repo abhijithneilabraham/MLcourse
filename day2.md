@@ -83,7 +83,7 @@ https://developers.google.com/machine-learning/crash-course/introduction-to-neur
 3)Tanh — Hyperbolic tangent
 
 <h2>Forward Propogation</h2>
-<p align="center"
+<p align="center" >
 <img src="https://www.bogotobogo.com/python/scikit-learn/images/NeuralNetwork2-Forward-Propagation/NN-with-components-w11-etc.png" label=lalala />
 </p>
 <h2>Training</h2>
