@@ -69,14 +69,23 @@ The perceptron works on these simple steps
 <img src="https://cdn-images-1.medium.com/max/800/1*zYfwoRcih4jzyDP3j3aVmQ.png" label=image3 />
 <h4> What is the need for regularisation? </h4>
 
+This is a form of regression, that constrains/ regularizes or shrinks the coefficient estimates towards zero. In other words, this technique discourages learning a more complex or flexible model, so as to avoid the risk of overfitting.
+
 
 <h2> Activation Functions</h2>
 To model a nonlinear problem, we can directly introduce a nonlinearity. We can pipe each hidden layer node through a nonlinear function.
 
-In the model represented by the following graph, the value of each node in Hidden Layer 1 is transformed by a nonlinear function before being passed on to the weighted sums of the next layer. This nonlinear function is called the activation fun
+In the model represented by the following graph, the value of each node in Hidden Layer 1 is transformed by a nonlinear function before being passed on to the weighted sums of the next layer. This nonlinear function is called the activation function
 https://developers.google.com/machine-learning/crash-course/introduction-to-neural-networks/anatomy
+<h3> Here are some activation functions</h3>
+1)ReLu -Rectified linear units
+2)Sigmoid or Logistic
+3)Tanh — Hyperbolic tangent
 
 <h2>Forward Propogation</h2>
+<p align="center"
+<img src="https://www.bogotobogo.com/python/scikit-learn/images/NeuralNetwork2-Forward-Propagation/NN-with-components-w11-etc.png" label=lalala />
+</p>
 <h2>Training</h2>
 <h2>Backward propogation(Backprop)</h2>
 <h2>Loss Functions</h2>
