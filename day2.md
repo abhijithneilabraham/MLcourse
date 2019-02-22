@@ -70,8 +70,12 @@ The perceptron works on these simple steps
 <h4> What is the need for regularisation? </h4>
 
 
+<h2> Activation Functions</h2>
+To model a nonlinear problem, we can directly introduce a nonlinearity. We can pipe each hidden layer node through a nonlinear function.
 
-<h2>Activation Function</h2>
+In the model represented by the following graph, the value of each node in Hidden Layer 1 is transformed by a nonlinear function before being passed on to the weighted sums of the next layer. This nonlinear function is called the activation fun
+https://developers.google.com/machine-learning/crash-course/introduction-to-neural-networks/anatomy
+
 <h2>Forward Propogation</h2>
 <h2>Training</h2>
 <h2>Backward propogation(Backprop)</h2>
