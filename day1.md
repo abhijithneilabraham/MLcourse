@@ -160,8 +160,8 @@ First we have to find the loss.
 
 ```
 = the square of the difference between the label and the prediction
-= (observation - prediction(x))2
-= (y - y')2
+= (observation - prediction(x))**2
+= (y - y')**2
 ```
 We need a function that will minimize the parameters over our dataset. One common function that is often used is mean squared error, which measure the difference between the estimator (the dataset) and the estimated value (the prediction). 
 **Mean square error (MSE)** is the average squared loss per example over the whole dataset.
