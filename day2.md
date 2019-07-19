@@ -1,5 +1,5 @@
 <html>
-  <h2 align="center">okay,now ,before starting todays class,let's revise Supervised and unsupervised learning!(from day1.md)</h2>
+  <h2 align="center">Okay,now ,before starting todays class,let's revise Supervised and Unsupervised learning!(from day1.md)</h2>
   </br>
 <h1>Topics</h1>
 <h2>Neurons In brain</h2>
