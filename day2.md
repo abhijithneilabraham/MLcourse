@@ -61,10 +61,10 @@ The perceptron works on these simple steps
 <img src="https://cdn-images-1.medium.com/max/800/1*U5ZAUIb_9nq2EqlhIC1WfA.png" align=center label=image8 />
 </br>Here, creating the new feature “Hour_Of_Day” is the feature engineering.
 <h2> feature crosses</h2>
-</br>
+
 [Read this article about Feature crossing](https://developers.google.com/machine-learning/crash-course/feature-crosses/encoding-nonlinearity)
 <h2>One Hot Encoding</h2>
-</br>[Read this awesome explanation about One Hot Encoding](https://machinelearningmastery.com/why-one-hot-encode-data-in-machine-learning/)
+[Read this awesome explanation about One Hot Encoding](https://machinelearningmastery.com/why-one-hot-encode-data-in-machine-learning/)
 
 <h2>Regularisation</h2>
 <img src="https://cdn-images-1.medium.com/max/800/1*zYfwoRcih4jzyDP3j3aVmQ.png" label=image3 />
