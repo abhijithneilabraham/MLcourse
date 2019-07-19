@@ -1,8 +1,8 @@
 <html>
   <h2 align="center">Okay,now ,before starting todays class,let's revise Supervised and Unsupervised learning!(from day1.md)</h2>
   </br>
-<h1>Topics</h1>
-<h2>Neurons In brain</h2>
+<h1 align="center">Topics</h1>
+<h2 align="center">Neurons In brain</h2>
   <h4>Cells within the nervous system, called neurons, communicate with each other in unique ways. The neuron is the basic working unit of the brain, a specialized cell designed to transmit information to other nerve cells, muscle, or gland cells.
     
 The brain is what it is because of the structural and functional properties of interconnected neurons. The mammalian brain contains between 100 million and 100 billion neurons, depending on the species.
@@ -15,7 +15,7 @@ The brain is what it is because of the structural and functional properties of i
 <img src="http://www.quickmeme.com/img/4f/4f6426cff43d5fded163b8c294d007b022eda8a18344b21fe7be3b8c69afbc25.jpg" label=image3 </img>
 </p>
 
-<h2>Wait, are we doing machine learning or deep learning?</h2>
+<h2 align="center">Wait, are we doing machine learning or deep learning?</h2>
 <p align="center">
   
 
@@ -23,32 +23,35 @@ The brain is what it is because of the structural and functional properties of i
 </p>
  
  
- </br> Theres a difference between machine learning and deep learning
- </br>Machine learning is a lot of complex math and coding that, at the end of day, serves a mechanical function the same way a flashlight, a car, or a television does. When something is capable of “machine learning”, it means it’s performing a function with the data given to it, and gets progressively better at that function. It’s like if you had a flashlight that turned on whenever you said “it’s dark”, so it would recognize different phrases containing the word “dark”.
+ <br> Theres a difference between machine learning and deep learning
+ </br>
+ <br>Machine learning is a lot of complex math and coding that, at the end of day, serves a mechanical function the same way a flashlight, a car, or a television does. When something is capable of “machine learning”, it means it’s performing a function with the data given to it, and gets progressively better at that function. It’s like if you had a flashlight that turned on whenever you said “it’s dark”, so it would recognize different phrases containing the word “dark”.</br>
 
 <p>Deep learning
 In practical terms, deep learning is just a subset of machine learning.
   Let’s go back to the flashlight example: it could be programmed to turn on when it recognizes the audible cue of someone saying the word “dark”. Eventually, it could pick up any phrase containing that word. Now if the flashlight had a deep learning model, it could maybe figure out that it should turn on with the cues “I can’t see” or “the light switch won’t work”. A deep learning model is able to learn through its own method of computing – its own “brain”, if you will. </p>
- <h4> So,any clue as to why I explained about a neuron earlier?</h4>
+ <h4 align="center"> So,any clue as to why I explained about a neuron earlier?</h4>
  
  
-<h2>Neural Networks and perceptrons</h2>
+<h2 align="center">Neural Networks and perceptrons</h2>
 <h4>Perceptron is a single layer neural network and a multi-layer perceptron is called Neural Networks.</h4>
 Perceptron is a linear classifier (binary). Also, it is used in supervised learning
-</br>But how does it work?
-The perceptron works on these simple steps
+<br>But how does it work?</br>
+<br>The perceptron works on these simple steps</br>
 
-</br>a. All the inputs x are multiplied with their weights w. Let’s call it k.
+<br>a. All the inputs x are multiplied with their weights w. Let’s call it k.
 <img src="https://cdn-images-1.medium.com/max/800/1*_Zy1C83cnmYUdETCeQrOgA.png" label=image4 align="center" />
-</br>b. Add all the multiplied values and call them Weighted Sum.
+</br>
+b. Add all the multiplied values and call them Weighted Sum.
 
 <img src="https://cdn-images-1.medium.com/max/800/1*xFd9VQnUM1H0kiCENsoYxg.gif" align="center" label=image5 />
-</br>c. Apply that weighted sum to the correct Activation Function.
-</br>For Example : Unit Step Activation Function.
+<br>c. Apply that weighted sum to the correct Activation Function.
+</br>
+For Example : Unit Step Activation Function.
 <img src="https://cdn-images-1.medium.com/max/800/1*0iOzeMS3s-3LTU9hYH9ryg.png"  label=image6 align="center" />
 
 <h2>Overfitting</h2>
-</br>Overfitting is when the trained model memorizes the undesirable patterns or noise from the training data-set. This is due to too much training or learning capacity(too many hidden layers or neurons in each layer). The consequence of overfitting is that, model cannot generalize to samples outside its training set, which overall reduces the performance of the model. To determine whether the model is overfitting, during the training, compare the loss value on the training and testing set. If the loss on the test set is much larger than in the training set, then the model is overfitting, specially if the training loss is low. However, it is also normal that the test loss is slightly larger than training loss.
+<br>Overfitting is when the trained model memorizes the undesirable patterns or noise from the training data-set. This is due to too much training or learning capacity(too many hidden layers or neurons in each layer). The consequence of overfitting is that, model cannot generalize to samples outside its training set, which overall reduces the performance of the model. To determine whether the model is overfitting, during the training, compare the loss value on the training and testing set. If the loss on the test set is much larger than in the training set, then the model is overfitting, specially if the training loss is low. However, it is also normal that the test loss is slightly larger than training loss.</br>
 
 
 <img src="https://cdn-images-1.medium.com/max/1200/1*cdvfzvpkJkUudDEryFtCnA.png" label=image2 />
