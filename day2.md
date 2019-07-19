@@ -53,20 +53,22 @@ The perceptron works on these simple steps
 
 <img src="https://cdn-images-1.medium.com/max/1200/1*cdvfzvpkJkUudDEryFtCnA.png" label=image2 />
 <h2>Qualities of good features</h2>
-</br><h3>let's read about feature engineering</h3>
-</br>https://developers.google.com/machine-learning/crash-course/representation/feature-engineering
-</br>Suppose, we are given a data “flight date time vs status”. Then, given the date-time data, we have to predict the status of the flight.
+<br><h3>let's read about feature engineering</h3>
+</br>
+https://developers.google.com/machine-learning/crash-course/representation/feature-engineering
+<br>Suppose, we are given a data “flight date time vs status”. Then, given the date-time data, we have to predict the status of the flight.
 <img src="https://cdn-images-1.medium.com/max/800/1*4uxZB7gAd-1Vm4nVwtouwg.png" align=center label=image7 />
-</br>As the status of the flight depends on the hour of the day, not on the date-time. We will create the new feature “Hour_Of_Day”. Using the “Hour_Of_Day” feature, the machine will learn better as this feature is directly related to the status of the flight.
+</br>
+As the status of the flight depends on the hour of the day, not on the date-time. We will create the new feature “Hour_Of_Day”. Using the “Hour_Of_Day” feature, the machine will learn better as this feature is directly related to the status of the flight.
 <img src="https://cdn-images-1.medium.com/max/800/1*U5ZAUIb_9nq2EqlhIC1WfA.png" align=center label=image8 />
-</br>Here, creating the new feature “Hour_Of_Day” is the feature engineering.
-<h2> feature crosses</h2>
+Here, creating the new feature “Hour_Of_Day” is the feature engineering.
+<h2 align="center"> Feature crosses</h2>
 
 [Read this article about Feature crossing](https://developers.google.com/machine-learning/crash-course/feature-crosses/encoding-nonlinearity)
-<h2>One Hot Encoding</h2>
+<h2 align="center">One Hot Encoding</h2>
 [Read this awesome explanation about One Hot Encoding](https://machinelearningmastery.com/why-one-hot-encode-data-in-machine-learning/)
 
-<h2>Regularisation</h2>
+<h2 align="center">Regularisation</h2>
 <img src="https://cdn-images-1.medium.com/max/800/1*zYfwoRcih4jzyDP3j3aVmQ.png" label=image3 />
 <h4> What is the need for regularisation? </h4>
 
