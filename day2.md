@@ -58,7 +58,7 @@ For Example : Unit Step Activation Function.
 <h2>Qualities of good features</h2>
 <br><h3>let's read about feature engineering</h3>
 </br>
-https://developers.google.com/machine-learning/crash-course/representation/feature-engineering
+[Click here to read about Feature Engineering](https://developers.google.com/machine-learning/crash-course/representation/feature-engineering)
 <br>Suppose, we are given a data “flight date time vs status”. Then, given the date-time data, we have to predict the status of the flight.
 <img src="https://cdn-images-1.medium.com/max/800/1*4uxZB7gAd-1Vm4nVwtouwg.png" align=center label=image7 />
 </br>
@@ -69,6 +69,7 @@ Here, creating the new feature “Hour_Of_Day” is the feature engineering.
 
 [Read this article about Feature crossing](https://developers.google.com/machine-learning/crash-course/feature-crosses/encoding-nonlinearity)
 <h2 align="center">One Hot Encoding</h2>
+
 [Read this awesome explanation about One Hot Encoding](https://machinelearningmastery.com/why-one-hot-encode-data-in-machine-learning/)
 
 <h2 align="center">Regularisation</h2>
