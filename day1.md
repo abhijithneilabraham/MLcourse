@@ -1,4 +1,4 @@
-# Welcome!
+<h1 align="center"> Welcome! </h1>
 <p align="center">
   <img src="https://github.com/abhijithneilabraham/MLcourse/blob/master/ML1.png"
        height="500" width="500"alt="Keralaai tf study jam"/>
@@ -16,17 +16,17 @@
 7. First Steps with some frameworks
 8. Tasks
 
-## Intro to machine learning
+<h1 align="center"> Intro to machine learning </h1>
 Do you wonder how life works? How humans make and adapt and learn? We cannot learn anything unless we have a data as input,which are gained mostly through our sense organs.
 Well, do give machines some data, give them the power of wisdom, and ,let them learn things their own way!
 Almost like, watching a child grow right infront of you. :)
-https://thispersondoesnotexist.com
+
 
 ### Types of machine learning algorithms:
 - Supervised Learning
 
 <p>
-  <img src="https://github.com/GopikrishnanSasikumar/Intro-to-Machine-Learning-Workshop/blob/master/images-2.png"alt="supervised learning"/>
+  <img src="https://github.com/GopikrishnanSasikumar/Intro-to-Machine-Learning-Workshop/blob/master/images-2.png"alt="supervised learning" align="center"/>
 </p>
 Applications:
 </br> Information extraction
