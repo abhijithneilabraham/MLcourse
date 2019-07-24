@@ -296,20 +296,32 @@ Tensorflow consist of,
 
 
 <h2>Why don't you try with scikit learn framework with me?</h2>
-<h1> Scikit learn</h1>
-</br>Simple and efficient tools for data mining and data analysis
-</br>Accessible to everybody, and reusable in various contexts
-</br>Built on NumPy, SciPy, and matplotlib
-</br>Open source, commercially usable - BSD license
+<h1 align="center"> Scikit learn</h1>
+<br>Simple and efficient tools for data mining and data analysis</br>
+<br>Accessible to everybody, and reusable in various contexts</br>
+<br>Built on NumPy, SciPy, and matplotlib</br>
+<br>Open source, commercially usable - BSD license</br>
 
 </br> Let's now check a code and visualize and train a small custom dataset to understand how linear regression works.
-</br>https://github.com/abhijithneilabraham/Scikit-matplotlib-pandas/blob/master/linear_model.py
+
+
+[Linear_regression_sample_program](https://github.com/abhijithneilabraham/Scikit-matplotlib-pandas/blob/master/linear_model.py)
 
 
 <p>## Tasks
-</br>1)https://scikit-learn.org/stable/tutorial/basic/tutorial.html . try this and other example tasks with scikit learn with built-in datasets.
+</br>1)
+
+Try this and other example tasks with scikit learn with built-in datasets.
+
+
+[Check out examples](https://scikit-learn.org/stable/tutorial/basic/tutorial.html)
+
+
+
 
 </br>2)Hey! what if you changed the dataset, i.e,change the training and test set values and parameters so that you can use it in your own application? May the best idea win!
 </p>
+
+
 
 
