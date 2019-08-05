@@ -12,4 +12,3 @@ basic machine learning concepts and terms
    This is the best blog I have about machine learning and analytics I have seen yet. Read them and try out the code.
 ## [Machine learning Mastery](https://machinelearningmastery.com)
    This is another blog about machine learning.
-## More will be coming...
