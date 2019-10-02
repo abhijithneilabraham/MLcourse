@@ -176,19 +176,25 @@ We need a function that will minimize the parameters over our dataset. One commo
 <p align="center">
   <img src="https://github.com/GopikrishnanSasikumar/Intro-to-Machine-Learning-Workshop/blob/master/mse.png"alt="MSE"/>
 </p>
-**Likelihood Loss** is also a relatively simple , and commonly used used loss function used in classification problems.
-```
-The function takes the predicted probability for each input example and multiplies them.
+
+**Likelihood Loss** is also a relatively simple , and commonly used used loss function used in classification problems.The function takes the predicted probability for each input example and multiplies them.
+
 Let the probabilities of outputs be [0.4,0.5,0.7,0.1] for the ground truth labels of [0, 1, 1, 0].
-likelihood loss = (0.6)*(0.5)*(0.7)*(0.9)
-Since the model outputs probabilities for TRUE(or 1) only, when the ground truth label is 0 we take (1-p) as the probability. In other words, we multiply the model’s outputted probabilities together for the actual outcomes.
-``` 
-**Log Loss** is also a  loss function also used frequently in classification problems, and is one of the most popular measures for Kaggle competitions. It’s just a straightforward modification of the likelihood function with logarithms.
-```
-Log loss = -(ylog(p) + (1-y)log(1-p))
+
+                            **Likelihood Loss = (0.6)*(0.5)*(0.7)*(0.9)**
+
+              Since the model outputs probabilities for TRUE(or 1) only, when the ground truth label is 0
+              we take (1-p) as the probability. In other words, we multiply the model’s outputted probabilities
+              together for the actual outcomes.
+ 
+
+**Log Loss** is a loss function also used frequently in classification problems, and is one of the most popular measures for Kaggle competitions. It’s just a straightforward modification of the likelihood function with logarithms.
+
+                              **Log loss = -(ylog(p) + (1-y)log(1-p))**
+
 This is actually exactly the same formula as the regular likelihood function, but with logarithms added in.
-```
-## Reducing Loss
+
+<h2>Reducing the Loss</h2>
 Reducing the loss is similar to the **"Hot and cold game"** kids play!(Hot if youre nearer,cold if youre not.)
 
 A Machine Learning model is trained by starting with an initial guess for the weights and bias and iteratively adjusting those guesses until learning the weights and bias with the lowest possible loss.
