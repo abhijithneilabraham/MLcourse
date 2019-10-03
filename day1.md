@@ -23,7 +23,12 @@ Almost like, watching a child grow right infront of you. :)
 
 
 ### Types of machine learning algorithms:
-- Supervised Learning
+#### Supervised Learning
+-Supervised learning is the machine learning task of learning things based on classified examples and previous data. This previous data is called training data which consists of a set of training examples.
+For example you have to arrange some animals as "duck" or "not duck"
+</br>You already know from your previous work about the physical characters of duck.
+</br>Now classify the animals using this learned data.
+</br>Your previous work is called training data.
 
 <p>
   <img src="https://github.com/GopikrishnanSasikumar/Intro-to-Machine-Learning-Workshop/blob/master/images-2.png"alt="supervised learning" align="center"/>
@@ -35,8 +40,10 @@ Applications:
 </br>Speech recognition
 
 
-- Unsupervised Learning(I kind of like to imagine it as a human named tarzan who lives in jungle seeing two different animals!)
-<h3>
+#### Unsupervised Learning
+(I kind of like to imagine it as a human named tarzan who lives in jungle seeing two different animals!)
+</br>In unsupervised learning you train an machine learning model using data that is neither classified nor labeled.
+
   As you can see,
   the most common method for unsupervised learning is clustering.
 <p>
@@ -44,7 +51,7 @@ Applications:
 </p>
  </br>The goal for unsupervised learning is to model the underlying structure or distribution in the data in order to learn more about the data.
 
-- Reinforcement Learning(action,state and rewards)
+#### Reinforcement Learning(action,state and rewards)
 
 remind me to make you play a game of 2 cars!
 
@@ -54,10 +61,10 @@ remind me to make you play a game of 2 cars!
 </br>Continuos learning process,with self improvement,based on rewards.
 </br> Application Example:Self Driving car.
 
-
+We can say that reinforcement learning is semi supervised.
 In supervised learning we create “models”, a model is basically a function that takes in simple inputs and produces useful predictions. Here we have features and labels in the dataset.
 
-### Features:
+##### Features:
 
 A feature is an input variable—the x variable .
 . A simple machine learning project might use a single feature, while a more sophisticated machine learning project could use millions of features.The learning is done by understanding the features.
@@ -68,11 +75,11 @@ Features of sem exam scores for predicting ML model can be,
 - previous knowledge from +2 topics.(Brilliant pala students please step back!!)
 - Love for PUBG :wink:
 
-### Labels:
+##### Labels:
 
 A label is the thing we're predicting. It can be the price of a product, class probability in a classification.
 
-### Examples:
+##### Examples:
   An example is a particular instance of data, x. (We put x in boldface to indicate that it is a vector.) We break examples into two categories:
 
 </br>	&#8226;labeled examples
@@ -109,7 +116,7 @@ A classification model predicts discrete values. It can make predictions that an
 <h4>Click on the link below</h4>
 https://developers.google.com/machine-learning/crash-course/framing/check-your-understanding
 
-### Linear Regression
+#### Linear Regression
 
 Linear regression is a method for finding the straight line or hyperplane that best fits a set of points.
 
@@ -149,7 +156,7 @@ here, x1,x2,x3 are the different different features which predict for the label.
 
 2. In supervised learning, a machine learning algorithm builds a model by examining many examples and attempting to find a model that minimizes loss; this process is called **empirical risk minimization**.
 
-3. Loss is the penalty for a bad prediction. If the model's prediction is perfect, the loss is zero; otherwise, the loss is greater. 
+3. **Loss** is the penalty for a bad prediction. If the model's prediction is perfect, the loss is zero; otherwise, the loss is greater. 
 
 4. The goal of training a model is to find a set of weights and biases that have low loss, on average, across all examples.
 
@@ -170,7 +177,24 @@ We need a function that will minimize the parameters over our dataset. One commo
   <img src="https://github.com/GopikrishnanSasikumar/Intro-to-Machine-Learning-Workshop/blob/master/mse.png"alt="MSE"/>
 </p>
 
-## Reducing Loss
+**Likelihood Loss** is also a relatively simple , and commonly used used loss function used in classification problems.The function takes the predicted probability for each input example and multiplies them.
+
+Let the probabilities of outputs be [0.4,0.5,0.7,0.1] for the ground truth labels of [0, 1, 1, 0].
+
+                               Likelihood Loss = (0.6)*(0.5)*(0.7)*(0.9)
+
+              Since the model outputs probabilities for TRUE(or 1) only, when the ground truth label is 0
+              we take (1-p) as the probability. In other words, we multiply the model’s outputted probabilities
+              together for the actual outcomes.
+ 
+
+**Log Loss** is a loss function also used frequently in classification problems, and is one of the most popular measures for Kaggle competitions. It’s just a straightforward modification of the likelihood function with logarithms.
+
+                                Log loss = -(ylog(p) + (1-y)log(1-p))
+
+This is actually exactly the same formula as the regular likelihood function, but with logarithms added in.
+
+<h2>Reducing the Loss</h2>
 Reducing the loss is similar to the **"Hot and cold game"** kids play!(Hot if youre nearer,cold if youre not.)
 
 A Machine Learning model is trained by starting with an initial guess for the weights and bias and iteratively adjusting those guesses until learning the weights and bias with the lowest possible loss.
@@ -232,10 +256,11 @@ coconut falling on head =
 0.05*365 
 ~= 18
 ```
+3. An activation function produces an output.
+4. In logistic regression we do the sum of products of inputs(X) and their corresponding weights(w) and apply an Activation function.
+6. There are different types of activation fuctions like **sigmoid function, hyperbolic tangent function(tanh), Rectified Linear Activation Unit(ReLU)** etc.
 
-
-3. a sigmoid function, defined as follows, produces output that always falls between 0 and 1.
-So,the aim of logistic regression is to get a probabilistic value between 0 and 1, and you can see that in the graph 
+7. A commonly used activation function in logistic regression, a **sigmoid function**, defined as follows, produces output that always falls between 0 and 1. So,the aim of logistic regression is to get a probabilistic value between 0 and 1, and you can see that in the graph 
 
 <p align="center">
   <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSw89aMI5qlmImjji48z1agmJOhIJDSJvZgrHD9WPR4q783tMEMkw" height="100" width="150" alt="sigmoid function"/>
