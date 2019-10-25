@@ -24,7 +24,7 @@ Almost like, watching a child grow right infront of you. :)
 
 ### Types of machine learning algorithms:
 #### Supervised Learning
--Supervised learning is the machine learning task of learning things based on classified examples and previous data. This previous data is called training data which consists of a set of training examples.
+Supervised learning is the machine learning task of learning things based on classified examples and previous data. This previous data is called training data which consists of a set of training examples.
 For example you have to arrange some animals as "duck" or "not duck"
 </br>You already know from your previous work about the physical characters of duck.
 </br>Now classify the animals using this learned data.
@@ -34,10 +34,10 @@ For example you have to arrange some animals as "duck" or "not duck"
   <img src="https://github.com/GopikrishnanSasikumar/Intro-to-Machine-Learning-Workshop/blob/master/images-2.png"alt="supervised learning" align="center"/>
 </p>
 Applications:
-</br> Information extraction
-</br>Object recognition in image processing
-</br>Pattern recognition
-</br>Speech recognition
+</br>-Information extraction
+</br>-Object recognition in image processing
+</br>-Pattern recognition
+</br>-Speech recognition
 
 
 #### Unsupervised Learning
