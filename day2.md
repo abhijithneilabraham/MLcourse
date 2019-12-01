@@ -39,6 +39,7 @@ Perceptron is a linear classifier (binary). Also, it is used in supervised learn
 <br>But how does it work?</br>
 <br>The perceptron works on these simple steps</br>
 
+
 <br>a. All the inputs x are multiplied with their weights w. Let’s call it k.
 <img src="https://cdn-images-1.medium.com/max/800/1*_Zy1C83cnmYUdETCeQrOgA.png" label=image4 align="center" />
 </br>
@@ -49,6 +50,12 @@ b. Add all the multiplied values and call them Weighted Sum.
 </br>
 For Example : Unit Step Activation Function.
 <img src="https://cdn-images-1.medium.com/max/800/1*0iOzeMS3s-3LTU9hYH9ryg.png"  label=image6 align="center" />
+
+<h2 align='center'> Neural Network Layout </h2>
+<img align='center' label=image6 src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Colored_neural_network.svg/280px-Colored_neural_network.svg.png" />
+<br> In a neural network architecure, there is an input layer, some hidden layers and an output Layer. </br>
+<br>The weighted outputs from input layer is passed to the input of next layer, and so on, and we will get the predicted output in numerical form at the output layer. </br>
+
 
 <h2>Overfitting</h2>
 <br>Overfitting is when the trained model memorizes the undesirable patterns or noise from the training data-set. This is due to too much training or learning capacity(too many hidden layers or neurons in each layer). The consequence of overfitting is that, model cannot generalize to samples outside its training set, which overall reduces the performance of the model. To determine whether the model is overfitting, during the training, compare the loss value on the training and testing set. If the loss on the test set is much larger than in the training set, then the model is overfitting, specially if the training loss is low. However, it is also normal that the test loss is slightly larger than training loss.</br>
