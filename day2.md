@@ -90,7 +90,7 @@ This is a form of regression, that constrains/ regularizes or shrinks the coeffi
 
 <h2> Activation Functions</h2>
 To model a nonlinear problem, we can directly introduce a nonlinearity. We can pipe each hidden layer node through a nonlinear function.
-
+<img src="https://missinglink.ai/wp-content/uploads/2018/11/activationfunction-1.png" />
 In the model represented by the following graph, the value of each node in Hidden Layer 1 is transformed by a nonlinear function before being passed on to the weighted sums of the next layer. This nonlinear function is called the activation function
 
 [click to read more about activation functions](https://developers.google.com/machine-learning/crash-course/introduction-to-neural-networks/anatomy)
