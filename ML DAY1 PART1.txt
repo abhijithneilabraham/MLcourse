@@ -1,0 +1,79 @@
+#Day1
+#PART 1:TILL LOSS(COST FUNCTION AND REST NOT INCLUDED)
+/*sorry for the mistakes,if any.just a beginner trying to find his field of expertise*/
+
+
+Machine Learning Short Notes
+_____________________________
+
+*Supervised learning-learning based on classified examples and previous data(training data)
+
+
+applications include speech recognition,patter recognition and information extraction etc.
+
+*unsupervised learning- More like a set of algebra books given to a primary student(Data cnnot be categorised or labeled by the kid with his knowledge.Rather learn from various forms of data)
+
+*Reinforcement learning- Semi-Supervised
+
+_____________________________________________________________________
+
+FEATURES
+*********
+
+An input variabe that determines the output.A Machine learning model can have more thanone feature.
+
+LABEL
+********
+It is the thing that we are predicting more likely it can be called as the output.
+
+NOTE:A LABELLED EXAMPLE WILL CONTAIN BOTH LABEL AND A FEATURE.
+
+
+*****KEY*****
+1.SL-SUPERVISED LEARNING
+2.USL-UNSUPERVISED LEARNING
+3.ML-MACHINE LEARNING
+
+      |---REGRESSION				
+SL----
+      \---CLASSIFICATION
+
+CLASSIFICATION-when the ouput variable is a category,such as RED BLUE 
+	   (same definition as the author)
+
+
+REGRESSION-when output variable is a definite value like weight mass price etc...
+
+Classification doesnt give a clear ouput rather it classifies ..
+
+
+LINEAR REGRESSION-METHOD FOR FINDIN STRAIGHT LINE OR HYPERPLANE(COPIED STRAIGHT FORM THE AUTHOR)
+________________________________________________________________
+
+y' = b + w1x1
+
+
+Where,
+
+y' is the label we are predicting.
+b is the bias.(does the same thing what a constant c does to the line equation.Determines if to pass through origin or not)
+w1 is the weight of feature 1. Weight is the same concept as the "slope" in the traditional equation of a line.
+x1 is a feature (a known input).
+
+
+EMPIRICAL RISK MINIMIZATION
+_______________________________
+	A model built by training the ML algorithm with labelled data sets..MORE likely to find a model that minimises risks and lowers the cost.
+
+
+NOTE:LOSS IS THE PENALITY FOR A BAD PREDICTION
+
+IF (MODEL PREDICTION IS TRUE )THEN,
+
+{LOSS=0;}
+
+ELSE
+
+{LOSS>0;}
+
+

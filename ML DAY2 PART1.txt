@@ -1,0 +1,64 @@
+#ML Day 2
+#Basic brain functions I guess?
+*Neurons In Brain
+___________________
+*communicate with each other in a unique way
+*Basic working unit of the brain.
+
+What is Machine Learning and Deep learning
+____________________________________________
+
+**Learning something from a data->Figuring out a way to beat the data->Getting better at it->A piece of cake...
+
+**More coding and complex Math
+
+#.Deep learning.#
+________-_________
+
+**A progressive slow learner if you could say that 
+**More like a subset of Machine learning but way too powerful if you ask me..
+**I ll take the authors example a flashlight having a deep learning model will eventuall learn to turn on with the cues "i cant see" or "the light switch wont work.
+
+**Its a more brainy concept..Maybe try to learn it yourself..i dont know how to explain that concept..
+
+**Its more like an updated version of machine learning,like more features are added to the previous version.. A more understanding model.
+
+**WHAT IS A PERCEPTRON AND A NEURAL NETWORK
+______________________________________________
+
+*PERCEPTRON:A perceptron is used to figure out whether the ouputis 1 or 0
+
+PERCEPTRONS are the Building blocks of Neural Network..
+more precisely in a single-layered neural network the building blocks are perceptron.
+
+A Neural Network or a group of perceptrons has 4 parts.
+
+1.inputs and ouputs
+2.weights and biasing
+3.netsum
+4.activation function
+
+A NEURAL NETWORK-->>>>a complex logical statement...Just joking it is a high level logical statement but when we go deep into it we find out that its just a gropu of simple universal logic gates i.e AND ,OR ,NOT
+
+IN A MULTI LAYERED NEURAL NETWORk , the output of the first layer i.e
+the result given by the activation functions is passed on to the next layer perceptrons for further calculation of the results.
+
+**WHAT IS OVERFITTING?**
+__________________________
+
+	Imagine that a student is given a training set which has lots of errors and mistakes (more likely noises and disturbances).He tries to learn it and at a point of time the student becomes an expert in that training set(HE ALSO LEARNS THE WRONG METHODS AND RECORDS THE NOISES THAT ARISE).
+
+	when we give that student a test set he might give you a blunder of an  answer.This situation arose he was given more training with a set which has lots of noises.THIS SITUATON IS TERMED A OVERFITTING
+
+## test loss >> training loss (OVERFITTING CONDITION)
+
+
+KEY WORD
+_________
+FEATURE ENGINEERING- the process of converting raw data into feature vectors in ML is called as Feature engineering.
+
+REGULARISATION-An importatnt feature in machine learning.Its a process which discourages the algorithm to lear much less from a data set inorder to reduce overfitting.
+
+
+
+			  
