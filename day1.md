@@ -228,7 +228,7 @@ We take steps in gradient descent to converge to the local minimum. But learning
 <br>
 
 <p align="center">
-  <img src="http://blogs-images.forbes.com/janakirammsv/files/2017/04/ML-FaaS-1.png" height="360" width="740" alt="train-test divison"/>
+  <img src="https://developers.google.com/machine-learning/crash-course/images/TrainingDataVsTestData.svg" height="360" width="740" alt="train-test divison"/>
 </p>
 
 1. Our goal is to create a machine learning model that generalizes well to new data. 
