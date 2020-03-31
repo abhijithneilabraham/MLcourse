@@ -17,8 +17,10 @@
 8. Tasks
 
 <h1 align="center"> Intro to machine learning </h1>
-Do you wonder how life works? How humans make and adapt and learn? We cannot learn anything unless we have a data as input,which are gained mostly through our sense organs.
+Do you wonder how life works? How humans make, adapt and learn? We cannot learn anything unless we have a data as input, gained mostly through our sense organs.
+
 Well, do give machines some data, give them the power of wisdom, and ,let them learn things their own way!
+
 Almost like, watching a child grow right infront of you. :)
 
 
@@ -41,8 +43,8 @@ Applications:
 
 
 #### Unsupervised Learning
-(I kind of like to imagine it as a human named tarzan who lives in jungle seeing two different animals!)
-</br>In unsupervised learning you train an machine learning model using data that is neither classified nor labeled.
+(I kind of like to imagine it as a human named Tarzan who lives in jungle seeing two different animals!)
+</br>In unsupervised learning you train a machine learning model, using data that is neither classified nor labeled.
 
   As you can see,
   the most common method for unsupervised learning is clustering.
@@ -53,12 +55,12 @@ Applications:
 
 #### Reinforcement Learning(action,state and rewards)
 
-remind me to make you play a game of 2 cars!
+Remind me to make you play a game of 2 cars!
 
 <p>
   <img src="https://github.com/GopikrishnanSasikumar/Intro-to-Machine-Learning-Workshop/blob/master/1*HvoLc50Dpq1ESKuejhICHg.png" alt="Reinforcement Learning"/>
 </p>
-</br>Continuos learning process,with self improvement,based on rewards.
+</br>Continuos learning process, with self improvement, based on rewards.
 </br> Application Example:Self Driving car.
 
 We can say that reinforcement learning is semi supervised.
@@ -67,12 +69,12 @@ In supervised learning we create “models”, a model is basically a function t
 ##### Features:
 
 A feature is an input variable—the x variable .
-. A simple machine learning project might use a single feature, while a more sophisticated machine learning project could use millions of features.The learning is done by understanding the features.
+. A simple machine learning project might use a single feature, while a more sophisticated machine learning project could use millions of features. The learning is done by understanding the features.
 
-Features of sem exam scores for predicting ML model can be,
+Features of an ML model for predicting sem-exam scores can be,
 
 - Total number of hours spent studying the day before exam.
-- previous knowledge from +2 topics.(Brilliant pala students please step back!!)
+- Previous knowledge from +2 topics. (Brilliant Pala students please step back!!)
 - Love for PUBG :wink:
 
 ##### Labels:
@@ -102,13 +104,13 @@ A regression model is used to predict continuous values.
 
 For example,
 
-- The probability of winning the chicken dinner after several retries.(PUBG fans can relate!)
+- The probability of winning the chicken dinner after several retries. (PUBG fans can relate!)
 - Price of petrol in India.
 
 A classification model predicts discrete values. It can make predictions that answer questions like,
 
-- Is this an image of a cat or dog or Priya prakash warrier.
-- Predicting whether a movie belongs to DC or Marvel(based on the dark scree(and humour) may be). 
+- Is this an image of a cat or dog or Priya Prakash Warrier.
+- Predicting whether a movie belongs to DC or Marvel (based on the dark scree (and humour) may be). 
 
 
 
@@ -135,7 +137,7 @@ y' = b + w1x1
 Where,
 
 - y' is the label we are predicting.
-- b is the bias.(does the same thing what a constant c does to the line equation.Determines if to pass through origin or not)
+- b is the bias (does the same thing what a constant c does to the line equation. Determines if to pass through origin or not)
 - w1 is the weight of feature 1. Weight is the same concept as the "slope" 
  in the traditional equation of a line.
 - x1 is a feature (a known input).
@@ -195,7 +197,7 @@ Let the probabilities of outputs be [0.4,0.5,0.7,0.1] for the ground truth label
 This is actually exactly the same formula as the regular likelihood function, but with logarithms added in.
 
 <h2>Reducing the Loss</h2>
-Reducing the loss is similar to the **"Hot and cold game"** kids play!(Hot if youre nearer,cold if youre not.)
+Reducing the loss is similar to the **"Hot and cold game"** kids play!(Hot if you're nearer, cold if you're not.)
 
 A Machine Learning model is trained by starting with an initial guess for the weights and bias and iteratively adjusting those guesses until learning the weights and bias with the lowest possible loss.
 
@@ -220,7 +222,7 @@ In the above figure, we must reach the steepest point,i.e, the bottom most point
 <p align="center">
   <img src="https://cdn-images-1.medium.com/max/1600/0*QwE8M4MupSdqA3M4.png" height="300" width="500" alt="Gradient Descent"/>
 </p>
-We take steps in gradient descent to converge to the local minimum. But learning rate also shouldnt be to high or too low, which result in values other than local minimum.
+We take steps in gradient descent to converge to the local minimum. But learning rate also shouldn't be too high or too low, which result in values other than local minimum.
 
 
 
@@ -258,9 +260,9 @@ coconut falling on head =
 ```
 3. An activation function produces an output.
 4. In logistic regression we do the sum of products of inputs(X) and their corresponding weights(w) and apply an Activation function.
-6. There are different types of activation fuctions like **sigmoid function, hyperbolic tangent function(tanh), Rectified Linear Activation Unit(ReLU)** etc.
+5. There are different types of activation fuctions like **sigmoid function, hyperbolic tangent function(tanh), Rectified Linear Activation Unit(ReLU)** etc.
 
-7. A commonly used activation function in logistic regression, a **sigmoid function**, defined as follows, produces output that always falls between 0 and 1. So,the aim of logistic regression is to get a probabilistic value between 0 and 1, and you can see that in the graph 
+6. A commonly used activation function in logistic regression, a **sigmoid function**, defined as follows, produces output that always falls between 0 and 1. So,the aim of logistic regression is to get a probabilistic value between 0 and 1, and you can see that in the graph 
 
 <p align="center">
   <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSw89aMI5qlmImjji48z1agmJOhIJDSJvZgrHD9WPR4q783tMEMkw" height="100" width="150" alt="sigmoid function"/>
@@ -292,6 +294,7 @@ and p is the predicted output.
 Given data on time spent studying and exam scores. Linear Regression and logistic regression can predict different things:
 
 Linear Regression could help us predict the student’s test score on a scale of 0 - 100. Linear regression predictions are continuous (numbers in a range).
+
 Logistic Regression could help use predict whether the student passed or failed. Logistic regression predictions are discrete (only specific values or categories are allowed). We can also view probability scores underlying the model’s classifications.
 <h2>Decision Boundary</h2>
 
